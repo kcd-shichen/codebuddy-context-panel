@@ -65,8 +65,8 @@
 ### 方式一：本地目录（推荐，最稳）
 
 ```bash
-git clone https://github.com/<you>/context-panel.git
-codebuddy --plugin-dir ./context-panel
+git clone https://github.com/kcd-shichen/codebuddy-context-panel.git
+codebuddy --plugin-dir ./codebuddy-context-panel
 ```
 
 或在 Web UI：**模组中心 → 添加模组 → 本地 → 选择该目录**。
@@ -76,7 +76,7 @@ codebuddy --plugin-dir ./context-panel
 Web UI：**模组中心 → 添加模组 → Git**，填：
 
 ```
-github:<you>/context-panel
+github:kcd-shichen/codebuddy-context-panel
 ```
 
 ⚠️ 需要能直连 GitHub。若你的网络走代理，`git clone` 可能报 `CONNECT tunnel failed`，这时改用方式一或方式三。
@@ -84,7 +84,7 @@ github:<you>/context-panel
 ### 方式三：npm
 
 ```bash
-npm i -g <your-scope>/context-panel
+npm i -g codebuddy-context-panel
 ```
 
 或在模组中心的 **npm** 页签填包名。需要先 `npm publish`。

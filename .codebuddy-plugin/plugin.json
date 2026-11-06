@@ -1,6 +1,6 @@
 {
   "name": "context-panel",
-  "version": "0.1.0",
+  "version": "0.0.78",
   "description": "上下文面板：上下文占用、系统提示词分节、轨迹与 DNA 视图",
   "author": {
     "name": "SHICHEN"
