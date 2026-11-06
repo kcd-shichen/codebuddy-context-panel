@@ -1,4 +1,4 @@
-export default function () {
+const __mod = (function () {
 return {
   slotContract: 'strict',
   inject: ['slots','timer','sessions','chat'],
@@ -330,4 +330,10 @@ return {
   }
 };
 
-}
+})();
+
+export const inject = __mod.inject;
+export const slotContract = __mod.slotContract;
+export const apply = __mod.apply;
+
+export default __mod;
