@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.0.79 — 2026-11-06
+
+修复安装后标签页不出现的问题。
+
+- **修复**：客户端入口改为只导出 `apply` / `inject` 两个命名成员。v0.0.78 用的是 `export default function () { ... }`，宿主会拒绝加载并报 `Client entry must export apply(ctx)`，停靠栏里看不到「上下文」和「轨迹」。
+- 移除了同时存在默认导出与命名导出的写法（会报 `exports both a default plugin and named apply`）。
+- 其余代码与 v0.0.78 完全一致，无功能变更。
+
+升级方式：删除旧模组，重新添加即可。
+
 ## v0.0.78 — 2026-11-06
 
 首个公开版本。

@@ -1,6 +1,6 @@
 {
   "name": "codebuddy-context-panel",
-  "version": "0.0.78",
+  "version": "0.0.79",
   "description": "Context panel for CodeBuddy Code Web UI: context usage, system prompt sections, trajectory and DNA views",
   "license": "MIT",
   "keywords": [
