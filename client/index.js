@@ -333,7 +333,5 @@ return {
 })();
 
 export const inject = __mod.inject;
-export const slotContract = __mod.slotContract;
 export const apply = __mod.apply;
 
-export default __mod;
